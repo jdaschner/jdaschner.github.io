@@ -16,7 +16,7 @@ export const profile = {
   // Drop a PDF named resume.pdf into /public to enable the download button.
   resumePdf: "/resume.pdf",
   summary:
-    "Backend and cloud engineer with 7+ years building and shipping production systems. I own services end to end and consistently raise the engineering bar — introducing code reviews, CI/CD pipelines, and modern source control wherever I land. My work spans legacy ERP rewrites to greenfield telehealth platforms, with a current focus on backend services, cloud infrastructure, and system design across .NET, Azure, Go, and AWS.",
+    "Backend and cloud engineer with 7+ years building and shipping production systems. I own services end to end and consistently raise the engineering bar by introducing code reviews, CI/CD pipelines, and modern source control wherever I land. My work spans legacy ERP rewrites to greenfield telehealth platforms, with a current focus on backend services, cloud infrastructure, and system design across .NET, Azure, Go, and AWS.",
 };
 
 export interface Experience {
@@ -40,7 +40,7 @@ export const experience: Experience[] = [
       "Extracted 5 financial programs from a monolithic ERP and rewrote them as standalone services, cutting errors from 2–3 daily to roughly 1 per month.",
       "Built 4 CI/CD pipelines in Azure DevOps, cutting deploys from days down to minutes.",
       "Migrated 22 financial functions from the legacy CFSS system to Dynamics 365 Business Central, building 7 API and SFTP integrations to connect internal and third-party services.",
-      "Moved a 93-project solution from TFSVC to Git after being told it couldn't be done — added code reviews, branch policies, and a real staging/production workflow. Critical production bugs dropped to near-zero and UAT cycles went from days to minutes.",
+      "Moved a 93-project solution from TFSVC to Git after being told it couldn't be done, then added code reviews, branch policies, and a real staging and production workflow. Critical production bugs dropped to near-zero and UAT cycles went from days to minutes.",
     ],
     tech: ["C#", ".NET", "SQL", "Azure DevOps", "Dynamics 365 BC", "Go", "Python"],
   },
@@ -75,7 +75,7 @@ export const experience: Experience[] = [
     start: "Sept 2019",
     end: "Sept 2022",
     bullets: [
-      "Built a telehealth platform (Blazor, SQL Server, Azure) that recovered a third of the patient volume lost during COVID — still running in production today.",
+      "Built a telehealth platform (Blazor, SQL Server, Azure) that recovered a third of the patient volume lost during COVID, and it is still running in production today.",
       "Migrated 3 apps to Azure, including the main patient health system, rebuilding the backend around an API-first approach.",
       "Handled code reviews and on-call support for production issues.",
     ],
@@ -138,4 +138,4 @@ export const skills: { label: string; items: string[] }[] = [
   },
 ];
 
-export const awards = ["2019 VCU Capstone Design Expo — Award for Excellence in Design"];
+export const awards = ["Award for Excellence in Design, 2019 VCU Capstone Design Expo"];

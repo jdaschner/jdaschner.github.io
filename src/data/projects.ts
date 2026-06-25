@@ -16,11 +16,12 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    name: "Test Project",
+    name: "This Site",
     blurb:
-      "A placeholder project card. Replace this in src/data/projects.ts with a real project, or add more entries to the array — each one renders automatically.",
-    tags: ["Placeholder", "Edit me"],
-    repo: "https://github.com/jdaschner",
+      "The site you're reading. A React and TypeScript front end on Vite, styled with Tailwind. The blog runs on markdown files, so dropping one into a folder is all it takes to publish a post. The whole site is static, free to host, and deploys to GitHub Pages on every push.",
+    tags: ["React", "TypeScript", "Tailwind", "Vite", "GitHub Actions"],
+    repo: "https://github.com/jdaschner/jdaschner.github.io",
     featured: true,
+    postSlug: "building-this-site",
   },
 ];
