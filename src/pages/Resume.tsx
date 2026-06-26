@@ -12,6 +12,7 @@ export default function Resume() {
           </div>
           <a
             href={profile.resumePdf}
+            download="Justin-Daschner-Resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="rounded-md border border-border text-heading font-medium text-sm px-4 py-2 hover:border-accent/40 hover:bg-surface transition-colors"
